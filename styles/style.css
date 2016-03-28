@@ -1,0 +1,153 @@
+body {
+    width: 720px;
+    height: auto;
+    padding: 0px;
+    margin: auto;
+}
+.body1 {
+    width: 720px;
+    height: 1000px;
+    background: url("../images/mob/body1/fon6.png") no-repeat 0 -100px;
+}
+.header {
+    height: 120px;
+    width: 720px;
+    background-color: rgba(0,0,0, 0.6);
+    margin-bottom: 30px;
+    
+}
+.logo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: transparent url("../images/mob/header/logo.svg") no-repeat;
+}
+.messages {
+    height: 30px;
+    width: 30px;
+    margin-left: 65px;
+    background: url("../images/mob/header/sms.svg") no-repeat;
+}
+.messages > h {
+    display: block;
+    padding-top: 6px;
+    margin-left: 11px;
+    color: white;
+}
+.me {
+    margin-top: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    margin-right: 40px;
+    float: right;
+    background: transparent url("../images/mob/header/AVA2.svg") no-repeat;
+}
+
+.user-name {
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    margin-right: 20px;
+    margin-top: 65px;
+    font-family: cursive;
+    text-decoration: none;
+}
+.search-by {
+    color: white;
+    font-size: 4em;
+    font-family: cursive;
+    margin: 200px;
+    
+}
+.buttons {
+    padding-top: 30px;
+    width: 636px;
+    height: 100px;
+    margin: auto;
+}
+.search {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 53px;
+    border-radius: 100px;
+}
+.b5 {
+    background: url("../images/mob/body1/buttons/recomended.svg") no-repeat;
+    margin-right: 0px;
+}
+.b4 {
+    background: url("../images/mob/body1/buttons/rating.svg") no-repeat;
+}
+.b3 {
+    background: url("../images/mob/body1/buttons/money.svg") no-repeat;
+}
+.b2 {
+    background: url("../images/mob/body1/buttons/geo.svg") no-repeat;
+}
+.b1 {
+    background: url("../images/mob/body1/buttons/category.svg") no-repeat;
+}
+
+
+.filter {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 400px;
+    
+}
+
+.filter {
+    
+    background: url("../images/mob/body1/lupa.svg") no-repeat;
+}
+
+.search:focus ~ .filter,
+.search:hover ~ .filter{
+   /* transition: 1s; */
+    opacity: 1;
+    box-shadow: 0 0 15px #ff9400;
+}
+
+.b1:focus ~ .filter,
+.b1:hover ~ .filter{
+  /*  background-color: rgba(255, 148, 0,0.9) ;*/
+    background: #ff9400 url("../images/mob/body1/buttons/category3.svg") no-repeat;
+}
+.b2:focus ~ .filter,
+.b2:hover ~ .filter {
+    background: #ff9400 url("../images/mob/body1/buttons/geo3.svg") no-repeat;
+}
+.b3:focus ~ .filter,
+.b3:hover ~ .filter {
+    background: #ff9400 url("../images/mob/body1/buttons/money3.svg") no-repeat;
+}
+.b4:focus ~ .filter,
+.b4:hover ~ .filter {
+    background: #ff9400 url("../images/mob/body1/buttons/rating3.svg") no-repeat;
+}
+.b5:focus ~ .filter,
+.b5:hover ~ .filter {
+    background: #ff9400 url("../images/mob/body1/buttons/recomended3.svg") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
